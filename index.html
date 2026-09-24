@@ -1,44 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first website</title>
-</head>
-<header>
-    <h1>My Tech Blogs</h1>
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Website</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  
+  <body>
+  <header class="header">
+    <h1>My Registration <form (ngSubmit)="onSubmit()" #form="ngForm">
+    </form></h1>
     <nav>
-        <a href="form.html">Form</a>
-        <br>
-        <br>
-        <a href="https://www.youtube.com/">Youtube</a>
+      <a href="/form.html">Form</a>
     </nav>
-</header>
-<main>
+  </header>
+
+  <main>
     <article>
-        <h2>
-            Understanding html
-        </h2>
-        <p>Sematic element are crititcal for a modern web page</p>
+      <h2>Understanding HTML</h2>
+      <p>Sematic element are critical for a modern web page</p>
     </article>
-    <label for="First Name">First Name:</label>
-    <input type="text" name="First Name" placeholder="First Name" required>
-    <br>
-    <br>
-    <label for="">Country</label>
-    <select name="" id="">
-        <option value="">Select a country</option>
-        <option value="">Rwanda</option>
-        <option value="">Uganda</option>
-        <option value="">Kenya</option>
-        <option value="">Botswana</option>
-        <option value="">Brazil</option>
-    </select>
-    <br>
-    <label for="message">Message: </label>
-    <textarea name="message" placeholder="Write your message" rows="4" cols="50"></textarea>
-</main>
-<footer>
+    <article>
+      <h2>Understanding CSS</h2>
+      <p>CSS is the styling language for the web</p>
+    </article>  
+    </article>
+  </main>
+  
+
+
+  <footer>
     <p>© 2026 My Tech Blog</p>
-</footer>
+  </footer>
+  </body>
+  
 </html>
